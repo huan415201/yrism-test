@@ -1,8 +1,24 @@
 import React from 'react';
-import { View } from 'react-native';
+import { Text, TouchableOpacity, View } from 'react-native';
+import { NavigationProps } from '../../navigator';
+import { SCREEN_KEY } from '../../utils';
+import { styles } from './styles';
 
-const HomeScreen = () => {
-  return <View></View>;
+const HomeScreen = ({ navigation }: { navigation: NavigationProps }) => {
+  const goToList = () => navigation.navigate(SCREEN_KEY.EmployeeListScreen);
+
+  return (
+    <View style={styles.container}>
+      <TouchableOpacity style={styles.button}>
+        <Text style={styles.buttonText}>Go to list (Webview)</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={goToList}
+        style={[styles.button, styles.buttonSpacing]}>
+        <Text style={styles.buttonText}>Go to list</Text>
+      </TouchableOpacity>
+    </View>
+  );
 };
 
 export default HomeScreen;

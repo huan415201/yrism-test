@@ -1,24 +1,15 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { Employee } from '../../data';
+import { createSlice } from '@reduxjs/toolkit';
 
-type AppState = {
-  employees: Employee[];
-};
+type AppState = {};
 
-const initialState: AppState = {
-  employees: [],
-};
+const initialState: AppState = {};
 
 export const appSlice = createSlice({
   name: 'app',
   initialState,
-  reducers: {
-    removeEmployee: (state, action: PayloadAction<number>) => {
-      state.employees = state.employees.filter(i => i.id !== action.payload);
-    },
-  },
+  reducers: {},
 });
 
-export const { removeEmployee } = appSlice.actions;
+export const {} = appSlice.actions;
 
 export const appReducer = appSlice.reducer;
