@@ -33,6 +33,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 3,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 2,
@@ -66,6 +70,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Data Scientist',
+    yoe: 5,
+    description:
+      'Expert in coding, debugging, and optimizing software for better performance.',
   },
   {
     id: 3,
@@ -99,6 +107,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Software Engineer',
+    yoe: 4,
+    description:
+      'Driven by curiosity and a desire to build impactful software.',
   },
   {
     id: 4,
@@ -132,6 +144,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Backend Developer',
+    yoe: 1,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 5,
@@ -165,6 +181,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Backend Developer',
+    yoe: 5,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 6,
@@ -198,6 +218,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Full Stack Developer',
+    yoe: 3,
+    description:
+      'Team-oriented programmer dedicated to collaboration and continuous improvement.',
   },
   {
     id: 7,
@@ -231,6 +255,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'QA Engineer',
+    yoe: 6,
+    description:
+      'Creative problem-solver focused on delivering high-quality, maintainable code.',
   },
   {
     id: 8,
@@ -264,6 +292,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Backend Developer',
+    yoe: 1,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 9,
@@ -297,6 +329,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Full Stack Developer',
+    yoe: 6,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 10,
@@ -330,6 +366,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Data Scientist',
+    yoe: 4,
+    description:
+      'Driven by curiosity and a desire to build impactful software.',
   },
   {
     id: 11,
@@ -363,6 +403,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 5,
+    description:
+      'Proactive in identifying and addressing technical challenges in projects.',
   },
   {
     id: 12,
@@ -396,6 +440,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Full Stack Developer',
+    yoe: 2,
+    description:
+      'Creative problem-solver focused on delivering high-quality, maintainable code.',
   },
   {
     id: 13,
@@ -429,6 +477,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 2,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 14,
@@ -462,6 +514,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Full Stack Developer',
+    yoe: 4,
+    description:
+      'Committed to writing clean, efficient, and well-documented code.',
   },
   {
     id: 15,
@@ -495,6 +551,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Data Scientist',
+    yoe: 5,
+    description:
+      'Detail-oriented coder ensuring robust, error-free, and scalable applications.',
   },
   {
     id: 16,
@@ -528,6 +588,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 1,
+    description:
+      'Proactive in identifying and addressing technical challenges in projects.',
   },
   {
     id: 17,
@@ -561,6 +625,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Backend Developer',
+    yoe: 6,
+    description:
+      'Creative problem-solver focused on delivering high-quality, maintainable code.',
   },
   {
     id: 18,
@@ -594,6 +662,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Frontend Developer',
+    yoe: 2,
+    description:
+      'Expert in coding, debugging, and optimizing software for better performance.',
   },
   {
     id: 19,
@@ -627,6 +699,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Machine Learning Engineer',
+    yoe: 6,
+    description:
+      'Driven by curiosity and a desire to build impactful software.',
   },
   {
     id: 20,
@@ -660,6 +736,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Full Stack Developer',
+    yoe: 1,
+    description:
+      'Expert in coding, debugging, and optimizing software for better performance.',
   },
   {
     id: 21,
@@ -693,6 +773,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Software Engineer',
+    yoe: 4,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 22,
@@ -726,6 +810,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 1,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 23,
@@ -759,6 +847,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Machine Learning Engineer',
+    yoe: 3,
+    description:
+      'Team-oriented programmer dedicated to collaboration and continuous improvement.',
   },
   {
     id: 24,
@@ -792,6 +884,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'QA Engineer',
+    yoe: 1,
+    description:
+      'Creative problem-solver focused on delivering high-quality, maintainable code.',
   },
   {
     id: 25,
@@ -825,6 +921,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Mobile Developer',
+    yoe: 1,
+    description:
+      'Proactive in identifying and addressing technical challenges in projects.',
   },
   {
     id: 26,
@@ -858,6 +958,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Backend Developer',
+    yoe: 6,
+    description:
+      'Expert in coding, debugging, and optimizing software for better performance.',
   },
   {
     id: 27,
@@ -891,6 +995,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Mobile Developer',
+    yoe: 6,
+    description:
+      'Committed to writing clean, efficient, and well-documented code.',
   },
   {
     id: 28,
@@ -924,6 +1032,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'DevOps Engineer',
+    yoe: 3,
+    description:
+      'Proactive in identifying and addressing technical challenges in projects.',
   },
   {
     id: 29,
@@ -957,6 +1069,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 4,
+    description:
+      'Expert in coding, debugging, and optimizing software for better performance.',
   },
   {
     id: 30,
@@ -990,6 +1106,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 4,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 31,
@@ -1023,6 +1143,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Data Scientist',
+    yoe: 3,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 32,
@@ -1056,6 +1180,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 4,
+    description:
+      'Detail-oriented coder ensuring robust, error-free, and scalable applications.',
   },
   {
     id: 33,
@@ -1089,6 +1217,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Mobile Developer',
+    yoe: 5,
+    description:
+      'Creative problem-solver focused on delivering high-quality, maintainable code.',
   },
   {
     id: 34,
@@ -1122,6 +1254,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 5,
+    description:
+      'A skilled developer specializing in efficient, innovative solutions for complex problems.',
   },
   {
     id: 35,
@@ -1155,6 +1291,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Full Stack Developer',
+    yoe: 1,
+    description:
+      'A skilled developer specializing in efficient, innovative solutions for complex problems.',
   },
   {
     id: 36,
@@ -1188,6 +1328,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'DevOps Engineer',
+    yoe: 1,
+    description:
+      'Proactive in identifying and addressing technical challenges in projects.',
   },
   {
     id: 37,
@@ -1221,6 +1365,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'DevOps Engineer',
+    yoe: 1,
+    description:
+      'Committed to writing clean, efficient, and well-documented code.',
   },
   {
     id: 38,
@@ -1254,6 +1402,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 4,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 39,
@@ -1287,6 +1439,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'QA Engineer',
+    yoe: 1,
+    description:
+      'Expert in coding, debugging, and optimizing software for better performance.',
   },
   {
     id: 40,
@@ -1320,6 +1476,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 5,
+    description:
+      'Driven by curiosity and a desire to build impactful software.',
   },
   {
     id: 41,
@@ -1353,6 +1513,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'QA Engineer',
+    yoe: 6,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 42,
@@ -1386,6 +1550,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Machine Learning Engineer',
+    yoe: 3,
+    description:
+      'Team-oriented programmer dedicated to collaboration and continuous improvement.',
   },
   {
     id: 43,
@@ -1419,6 +1587,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Mobile Developer',
+    yoe: 5,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 44,
@@ -1452,6 +1624,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Mobile Developer',
+    yoe: 1,
+    description:
+      'Expert in coding, debugging, and optimizing software for better performance.',
   },
   {
     id: 45,
@@ -1485,6 +1661,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Software Engineer',
+    yoe: 6,
+    description:
+      'Expert in coding, debugging, and optimizing software for better performance.',
   },
   {
     id: 46,
@@ -1518,6 +1698,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 5,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 47,
@@ -1551,6 +1735,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Full Stack Developer',
+    yoe: 3,
+    description:
+      'Team-oriented programmer dedicated to collaboration and continuous improvement.',
   },
   {
     id: 48,
@@ -1584,6 +1772,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Backend Developer',
+    yoe: 1,
+    description:
+      'Team-oriented programmer dedicated to collaboration and continuous improvement.',
   },
   {
     id: 49,
@@ -1617,6 +1809,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Backend Developer',
+    yoe: 6,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 50,
@@ -1650,6 +1846,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Machine Learning Engineer',
+    yoe: 5,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 51,
@@ -1683,6 +1883,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 4,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 52,
@@ -1716,6 +1920,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Full Stack Developer',
+    yoe: 5,
+    description:
+      'Creative problem-solver focused on delivering high-quality, maintainable code.',
   },
   {
     id: 53,
@@ -1749,6 +1957,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Full Stack Developer',
+    yoe: 2,
+    description:
+      'Detail-oriented coder ensuring robust, error-free, and scalable applications.',
   },
   {
     id: 54,
@@ -1782,6 +1994,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Full Stack Developer',
+    yoe: 2,
+    description:
+      'Proactive in identifying and addressing technical challenges in projects.',
   },
   {
     id: 55,
@@ -1815,6 +2031,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 6,
+    description:
+      'Expert in coding, debugging, and optimizing software for better performance.',
   },
   {
     id: 56,
@@ -1848,6 +2068,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Data Scientist',
+    yoe: 2,
+    description:
+      'Team-oriented programmer dedicated to collaboration and continuous improvement.',
   },
   {
     id: 57,
@@ -1881,6 +2105,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Data Scientist',
+    yoe: 3,
+    description:
+      'Proactive in identifying and addressing technical challenges in projects.',
   },
   {
     id: 58,
@@ -1914,6 +2142,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Mobile Developer',
+    yoe: 1,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 59,
@@ -1947,6 +2179,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Full Stack Developer',
+    yoe: 4,
+    description:
+      'Proactive in identifying and addressing technical challenges in projects.',
   },
   {
     id: 60,
@@ -1980,6 +2216,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Mobile Developer',
+    yoe: 4,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 61,
@@ -2013,6 +2253,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Data Scientist',
+    yoe: 5,
+    description:
+      'Driven by curiosity and a desire to build impactful software.',
   },
   {
     id: 62,
@@ -2046,6 +2290,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Machine Learning Engineer',
+    yoe: 3,
+    description:
+      'Driven by curiosity and a desire to build impactful software.',
   },
   {
     id: 63,
@@ -2079,6 +2327,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'QA Engineer',
+    yoe: 5,
+    description:
+      'Driven by curiosity and a desire to build impactful software.',
   },
   {
     id: 64,
@@ -2112,6 +2364,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Full Stack Developer',
+    yoe: 4,
+    description:
+      'A skilled developer specializing in efficient, innovative solutions for complex problems.',
   },
   {
     id: 65,
@@ -2145,6 +2401,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'QA Engineer',
+    yoe: 4,
+    description:
+      'Driven by curiosity and a desire to build impactful software.',
   },
   {
     id: 66,
@@ -2178,6 +2438,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 4,
+    description:
+      'Detail-oriented coder ensuring robust, error-free, and scalable applications.',
   },
   {
     id: 67,
@@ -2211,6 +2475,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Mobile Developer',
+    yoe: 6,
+    description:
+      'Detail-oriented coder ensuring robust, error-free, and scalable applications.',
   },
   {
     id: 68,
@@ -2244,6 +2512,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Frontend Developer',
+    yoe: 5,
+    description:
+      'Creative problem-solver focused on delivering high-quality, maintainable code.',
   },
   {
     id: 69,
@@ -2277,6 +2549,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'DevOps Engineer',
+    yoe: 6,
+    description:
+      'Creative problem-solver focused on delivering high-quality, maintainable code.',
   },
   {
     id: 70,
@@ -2310,6 +2586,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Full Stack Developer',
+    yoe: 5,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 71,
@@ -2343,6 +2623,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Software Engineer',
+    yoe: 3,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 72,
@@ -2376,6 +2660,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'QA Engineer',
+    yoe: 5,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 73,
@@ -2409,6 +2697,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 2,
+    description:
+      'Team-oriented programmer dedicated to collaboration and continuous improvement.',
   },
   {
     id: 74,
@@ -2442,6 +2734,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Software Engineer',
+    yoe: 6,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 75,
@@ -2475,6 +2771,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Machine Learning Engineer',
+    yoe: 6,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 76,
@@ -2508,6 +2808,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Backend Developer',
+    yoe: 5,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 77,
@@ -2541,6 +2845,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'QA Engineer',
+    yoe: 2,
+    description:
+      'Expert in coding, debugging, and optimizing software for better performance.',
   },
   {
     id: 78,
@@ -2574,6 +2882,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'QA Engineer',
+    yoe: 6,
+    description:
+      'Committed to writing clean, efficient, and well-documented code.',
   },
   {
     id: 79,
@@ -2607,6 +2919,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 4,
+    description:
+      'A skilled developer specializing in efficient, innovative solutions for complex problems.',
   },
   {
     id: 80,
@@ -2640,6 +2956,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 1,
+    description:
+      'Team-oriented programmer dedicated to collaboration and continuous improvement.',
   },
   {
     id: 81,
@@ -2673,6 +2993,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'QA Engineer',
+    yoe: 6,
+    description:
+      'Creative problem-solver focused on delivering high-quality, maintainable code.',
   },
   {
     id: 82,
@@ -2706,6 +3030,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Software Engineer',
+    yoe: 3,
+    description:
+      'Committed to writing clean, efficient, and well-documented code.',
   },
   {
     id: 83,
@@ -2739,6 +3067,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Frontend Developer',
+    yoe: 3,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 84,
@@ -2772,6 +3104,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Mobile Developer',
+    yoe: 4,
+    description:
+      'Team-oriented programmer dedicated to collaboration and continuous improvement.',
   },
   {
     id: 85,
@@ -2805,6 +3141,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'DevOps Engineer',
+    yoe: 3,
+    description:
+      'Team-oriented programmer dedicated to collaboration and continuous improvement.',
   },
   {
     id: 86,
@@ -2838,6 +3178,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Backend Developer',
+    yoe: 4,
+    description:
+      'Creative problem-solver focused on delivering high-quality, maintainable code.',
   },
   {
     id: 87,
@@ -2871,6 +3215,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Backend Developer',
+    yoe: 4,
+    description:
+      'Committed to writing clean, efficient, and well-documented code.',
   },
   {
     id: 88,
@@ -2904,6 +3252,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 1,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 89,
@@ -2937,6 +3289,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Data Scientist',
+    yoe: 4,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 90,
@@ -2970,6 +3326,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 1,
+    description:
+      'Detail-oriented coder ensuring robust, error-free, and scalable applications.',
   },
   {
     id: 91,
@@ -3003,6 +3363,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Software Engineer',
+    yoe: 5,
+    description:
+      'Driven by curiosity and a desire to build impactful software.',
   },
   {
     id: 92,
@@ -3036,6 +3400,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Frontend Developer',
+    yoe: 1,
+    description:
+      'Committed to writing clean, efficient, and well-documented code.',
   },
   {
     id: 93,
@@ -3069,6 +3437,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Software Engineer',
+    yoe: 1,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 94,
@@ -3102,6 +3474,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'QA Engineer',
+    yoe: 4,
+    description:
+      'Detail-oriented coder ensuring robust, error-free, and scalable applications.',
   },
   {
     id: 95,
@@ -3135,6 +3511,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Backend Developer',
+    yoe: 2,
+    description:
+      'Versatile developer with experience in multiple programming languages and frameworks.',
   },
   {
     id: 96,
@@ -3168,6 +3548,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Frontend Developer',
+    yoe: 3,
+    description:
+      'Passionate about learning new technologies and improving development processes.',
   },
   {
     id: 97,
@@ -3201,6 +3585,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'DevOps Engineer',
+    yoe: 2,
+    description:
+      'A skilled developer specializing in efficient, innovative solutions for complex problems.',
   },
   {
     id: 98,
@@ -3234,6 +3622,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Mobile Developer',
+    yoe: 5,
+    description:
+      'A skilled developer specializing in efficient, innovative solutions for complex problems.',
   },
   {
     id: 99,
@@ -3267,6 +3659,10 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'Frontend Developer',
+    yoe: 5,
+    description:
+      'Team-oriented programmer dedicated to collaboration and continuous improvement.',
   },
   {
     id: 100,
@@ -3300,5 +3696,9 @@ export const RAW_DATA: Employee[] = [
         ],
       },
     ],
+    title: 'UI/UX Designer',
+    yoe: 3,
+    description:
+      'Expert in coding, debugging, and optimizing software for better performance.',
   },
 ];

@@ -10,13 +10,19 @@ const useGetEmployeeList = () => {
   const loadData = async (pn: number, ps: number, s: string) => {
     if (pn === -1) return;
     const response = await getEmployeesAPI(pn, ps, s);
-    if (response.totalPages === pn) setPageNumber(-1); // Last page
-    setEmployees(prev => [...prev, ...response.pageItems]);
+    setEmployees(prev => {
+      if (pn === 1) return response.pageItems;
+      return [...prev, ...response.pageItems];
+    });
+    if (pn === response.totalPages) setPageNumber(-1); // Last page
+    else setPageNumber(prev => prev + 1);
   };
 
   const reloadData = () => loadData(1, pageSize, search);
 
-  const loadMore = () => loadData(pageNumber, pageSize, search);
+  const loadMore = () => {
+    loadData(pageNumber, pageSize, search);
+  };
 
   useEffect(() => {
     reloadData();

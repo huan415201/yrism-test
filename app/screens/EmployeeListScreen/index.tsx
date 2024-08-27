@@ -1,24 +1,46 @@
-import { FlatList, Text, View } from 'react-native';
+import { useState } from 'react';
+import { FlatList, View } from 'react-native';
 import { Employee } from '../../data';
 import { useGetEmployeeList } from '../../hooks';
+import { ConfirmModal, EmployeeItem } from './components';
 import { styles } from './styles';
-import EmployeeItem from './components/EmployeeItem';
 
 const EmployeeListScreen = () => {
   const { employees, loadMore } = useGetEmployeeList();
+  const [isShowConfirmModal, setIsShowConfirmModal] = useState(false);
+  const [deleteId, setDeleteId] = useState<number | null>(null);
+  const [deleteName, setDeleteName] = useState<string>('');
 
   const keyExtractor = (item: Employee) => item.id.toString();
 
+  const onDelete = (id: number, name: string) => {
+    setIsShowConfirmModal(true);
+    setDeleteId(id);
+    setDeleteName(name);
+  };
+
+  const handleDelete = () => {};
+
+  const closeModal = () => setIsShowConfirmModal(false);
+
   return (
-    <View>
+    <View style={styles.container}>
       <FlatList
         data={employees}
-        renderItem={({ item }) => <EmployeeItem item={item} />}
+        renderItem={({ item, index }) => (
+          <EmployeeItem item={item} index={index} onDelete={onDelete} />
+        )}
         keyExtractor={keyExtractor}
         ItemSeparatorComponent={() => <View style={styles.separator} />}
-        pagingEnabled
         onEndReached={loadMore}
-        onEndReachedThreshold={0.7}
+        onEndReachedThreshold={0.3}
+        contentContainerStyle={styles.list}
+      />
+      <ConfirmModal
+        isVisible={isShowConfirmModal}
+        name={deleteName}
+        onOk={handleDelete}
+        onClose={closeModal}
       />
     </View>
   );

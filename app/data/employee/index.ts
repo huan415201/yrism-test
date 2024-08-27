@@ -20,8 +20,8 @@ export const getEmployeesAPI = async (
       message: 'success',
       statusCode: 200,
       data: {
-        totalItems: data.length,
-        totalPages: Math.ceil(data.length / pageSize),
+        totalItems: RAW_DATA.length,
+        totalPages: Math.ceil(RAW_DATA.length / pageSize),
         pageItems: data,
       },
     });

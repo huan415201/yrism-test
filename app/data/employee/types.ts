@@ -11,6 +11,9 @@ export type EmployeeListResponse = {
 export type Employee = {
   id: number;
   name: string;
+  title: string;
+  yoe: number;
+  description: string;
   positions: Position[];
 };
 
