@@ -15,7 +15,6 @@ const EmployeeListWebViewScreen = () => {
   } = useGetEmployeeList();
 
   const handleWebViewMessage = (event: WebViewMessageEvent) => {
-    console.log('a!!!');
     if (event.nativeEvent.data === 'previousPage') {
       getPreviousPage();
     }
