@@ -13,7 +13,7 @@ const ConfirmModal = ({
     <ReactNativeModal isVisible={isVisible} onBackdropPress={onClose}>
       <View style={styles.container}>
         <Text style={styles.text}>
-          Are your sure that you want to delete this employee?
+          Are your sure that you want to remove this employee?
         </Text>
         <View style={styles.row}>
           <Image

@@ -24,11 +24,23 @@ const useGetEmployeeList = () => {
     loadData(pageNumber, pageSize, search);
   };
 
+  const deleteEmployee = (id: number) =>
+    setEmployees(prev => prev.filter(i => i.id !== id));
+
   useEffect(() => {
     reloadData();
   }, [pageSize, search]);
 
-  return { employees, loadMore, pageSize, setPageSize, search, setSearch };
+  return {
+    employees,
+    setEmployees,
+    loadMore,
+    pageSize,
+    setPageSize,
+    search,
+    setSearch,
+    deleteEmployee,
+  };
 };
 
 export default useGetEmployeeList;

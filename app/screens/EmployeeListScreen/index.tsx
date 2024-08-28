@@ -6,7 +6,7 @@ import { ConfirmModal, EmployeeItem } from './components';
 import { styles } from './styles';
 
 const EmployeeListScreen = () => {
-  const { employees, loadMore } = useGetEmployeeList();
+  const { employees, loadMore, deleteEmployee } = useGetEmployeeList();
   const [isShowConfirmModal, setIsShowConfirmModal] = useState(false);
   const [deleteId, setDeleteId] = useState<number | null>(null);
   const [deleteName, setDeleteName] = useState<string>('');
@@ -19,7 +19,10 @@ const EmployeeListScreen = () => {
     setDeleteName(name);
   };
 
-  const handleDelete = () => {};
+  const handleDelete = () => {
+    if (deleteId) deleteEmployee(deleteId);
+    closeModal();
+  };
 
   const closeModal = () => setIsShowConfirmModal(false);
 
