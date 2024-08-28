@@ -53,6 +53,8 @@ const useGetEmployeeList = () => {
     nextPage,
     maxPage,
     loading,
+    search,
+    setSearch,
   };
 };
 
