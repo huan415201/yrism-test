@@ -7,9 +7,12 @@ import { styles } from './styles';
 const HomeScreen = ({ navigation }: { navigation: NavigationProps }) => {
   const goToList = () => navigation.navigate(SCREEN_KEY.EmployeeListScreen);
 
+  const goToListWebView = () =>
+    navigation.navigate(SCREEN_KEY.EmployeeListWebViewScreen);
+
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity onPress={goToListWebView} style={styles.button}>
         <Text style={styles.buttonText}>Go to list (Webview)</Text>
       </TouchableOpacity>
       <TouchableOpacity

@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { FlatList, View } from 'react-native';
+import { ActivityIndicator, FlatList, View } from 'react-native';
 import { Employee } from '../../data';
 import { useGetEmployeeList } from '../../hooks';
 import { ConfirmModal, EmployeeItem } from './components';
 import { styles } from './styles';
 
 const EmployeeListScreen = () => {
-  const { employees, loadMore, deleteEmployee } = useGetEmployeeList();
+  const { employees, loadMore, deleteEmployee, loading } = useGetEmployeeList();
   const [isShowConfirmModal, setIsShowConfirmModal] = useState(false);
   const [deleteId, setDeleteId] = useState<number | null>(null);
   const [deleteName, setDeleteName] = useState<string>('');
@@ -28,17 +28,24 @@ const EmployeeListScreen = () => {
 
   return (
     <View style={styles.container}>
-      <FlatList
-        data={employees}
-        renderItem={({ item, index }) => (
-          <EmployeeItem item={item} index={index} onDelete={onDelete} />
-        )}
-        keyExtractor={keyExtractor}
-        ItemSeparatorComponent={() => <View style={styles.separator} />}
-        onEndReached={loadMore}
-        onEndReachedThreshold={0.3}
-        contentContainerStyle={styles.list}
-      />
+      {employees?.length ? (
+        <FlatList
+          data={employees}
+          renderItem={({ item, index }) => (
+            <EmployeeItem item={item} index={index} onDelete={onDelete} />
+          )}
+          keyExtractor={keyExtractor}
+          ItemSeparatorComponent={() => <View style={styles.separator} />}
+          onEndReached={loadMore}
+          onEndReachedThreshold={0.3}
+          ListFooterComponent={() =>
+            loading ? <ActivityIndicator size="large" /> : null
+          }
+          contentContainerStyle={styles.list}
+        />
+      ) : (
+        <ActivityIndicator size="large" />
+      )}
       <ConfirmModal
         isVisible={isShowConfirmModal}
         name={deleteName}

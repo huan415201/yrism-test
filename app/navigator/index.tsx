@@ -1,12 +1,17 @@
 import { NavigationContainer, NavigationProp } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
-import { EmployeeListScreen, HomeScreen } from '../screens';
+import {
+  EmployeeListScreen,
+  EmployeeListWebViewScreen,
+  HomeScreen,
+} from '../screens';
 import { SCREEN_KEY, SCREEN_NAME } from '../utils';
 
 type ScreenParamList = {
   Home: undefined;
   EmployeeListScreen: undefined;
+  EmployeeListWebViewScreen: undefined;
 };
 
 export type NavigationProps = NavigationProp<ScreenParamList>;
@@ -26,6 +31,11 @@ const Navigator = () => {
           name={SCREEN_KEY.EmployeeListScreen}
           component={EmployeeListScreen}
           options={{ headerTitle: SCREEN_NAME.EmployeeListScreen }}
+        />
+        <Stack.Screen
+          name={SCREEN_KEY.EmployeeListWebViewScreen}
+          component={EmployeeListWebViewScreen}
+          options={{ headerTitle: SCREEN_NAME.EmployeeListWebViewScreen }}
         />
       </Stack.Navigator>
     </NavigationContainer>
